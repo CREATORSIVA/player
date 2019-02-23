@@ -7,6 +7,7 @@ int main()
 	scanf("%s",a);
     scanf("%d",&k);
 	n=strlen(a);
+	if(n<=10000)
     for(i=0;i<k;i++)
     {
     temp=a[n-1];
