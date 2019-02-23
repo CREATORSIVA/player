@@ -1,0 +1,30 @@
+#include <stdio.h>
+
+int main()
+{
+    int i,j,n,c=0,a[30][40],sum=0;
+    int k=1,s=2;
+    scanf("%d",&n);
+    if(n>=1 && n<=10000 )
+    for(i=1;i<=n;i++)
+    {
+      sum=k+sum;
+      if(sum==n)
+      {
+          c++;
+      }
+    }
+     for(i=1;i<=n;i++)
+    {
+      sum=0;
+      sum=s+sum;
+      if(sum==n)
+      {
+          c++;
+      }
+    }
+    
+        
+    printf("%d",c);
+return 0;
+}
