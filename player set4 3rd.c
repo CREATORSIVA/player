@@ -1,3 +1,4 @@
+
 #include<stdio.h>
 
 void main()
@@ -7,6 +8,7 @@ void main()
     int a[100][100],i,j,n,count=0;
 
     scanf("%d",&n);
+    if(n<=1000)
 
     for(i=0;i<n;i++)
 
@@ -53,6 +55,7 @@ void main()
     }
 
     printf("%d",count);
+    
 
     
 getch();
