@@ -2,7 +2,7 @@
 #include<string.h>
 int main()
 {
-    char a[50],b[40]={'A','n','w','e','r'};
+    char a[50],b[40]={'A','n','s','w','e','r'};
     int i,l=0,j=0,l1=0;
     scanf("%s",a);
     l=strlen(a);
