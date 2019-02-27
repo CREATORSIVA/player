@@ -6,6 +6,7 @@ int main()
     int i,j,n,x,c=0,a[40];
     scanf("%d",&n);
     scanf("%d",&x);
+    if(n<=100000)
     for(i=0;i<n;i++)
 
 {
