@@ -2,15 +2,15 @@
 
 void main()
 {
-    int ar[100],i,j,l,num,max=-1;
-    scanf("%d",&num);
-    for(i=0;i<num;i++)
+    int ar[100],i,j,l,n,max=-1;
+    scanf("%d",&n);
+    for(i=0;i<n;i++)
     {
         scanf("%d",&ar[i]);
     }
-    for(i=0;i<num;i++)
+    for(i=0;i<n;i++)
     {
-        for(j=i;j<num;j++)
+        for(j=i;j<n;j++)
         {
         l=ar[i]&ar[j];
         if(l>max)
