@@ -2,15 +2,15 @@
 
 int main()
 {
-   int a[1000],n,i,sum=0;
-   scanf("%d",&n);
-   for(i=0;i<n;i++)
+   int a[1000],num,i,sum=0;
+   scanf("%d",&num);
+   for(i=0;i<num;i++)
    {
        scanf("%d",&a[i]);
    }
-   for(i=0;i<n;i++)
+   for(i=0;i<num;i++)
    {
-       if(i!=n-1)
+       if(i!=num-1)
        {
        sum=sum+(a[i]+a[i+1]);
        }
