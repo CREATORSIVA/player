@@ -1,15 +1,15 @@
 int main()
 {
-    int a[10000],i,j,n,b[10000],k=0,m[100],c[100],l=0,t,v=0,s;
-    scanf("%d",&n);
-    for(i=0;i<n;i++)
+    int a[10000],i,j,num,b[10000],k=0,m[100],c[100],l=0,t,v=0,s;
+    scanf("%d",&num);
+    for(i=0;i<num;i++)
     {
         scanf("%d",&a[i]);
     }
-    for(i=0;i<n;i++)
+    for(i=0;i<num;i++)
     {
         v=1;
-        for(j=i+1;j<n;j++)
+        for(j=i+1;j<num;j++)
         {
             if(a[i]==a[j])
             {
