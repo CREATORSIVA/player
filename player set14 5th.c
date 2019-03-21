@@ -25,7 +25,7 @@ int main()
     {
         for(j=i+1;j<n;j++)
         {
-         if(a[j]>a[i])
+         if(a[j]<a[i])
          {
              t=a[j];
              a[j]=a[i];
@@ -37,9 +37,9 @@ int main()
     {
         printf("%d",a[i]);
     }
-    for(i=k;i>d;i--)
+    for(i=n-1;i>=d;i--)
     {
-        printf("%d",b[i]);
+        printf("%d",a[i]);
     }
     return 0;
    }
