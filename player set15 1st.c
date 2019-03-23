@@ -3,7 +3,7 @@
 void main()
 {
     char a[100][100],b[100],b1[1000];
-    int i,j,n,l,m,c=0,s=0;
+    int i,j,n,l,m,c=0,k=0;
     scanf("%d",&n);
     for(i=0;i<n;i++)
      scanf("%s",a[i]);
@@ -24,11 +24,11 @@ void main()
            
         }
         if(c==l)
-          s=1;
+          k=1;
         
         }
     }
-    if(s==1)
+    if(k==1)
       printf("yes");
    
     else
